@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.90">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./javascript/javinha.js"></script>
+    <title>Numismática - Descubra o Fascinante Mundo das Moedas</title>
+</head>
+<body id = "corpo">
+    <header class="cabecalho">
+        <div class="container">
+            <a href="#" class="logo">Numisfera</a>
+            <nav class="navegacao">
+                <ul>
+                    <li><a href="./index.html" target="_blank">Home</a></li>
+                    <li><a href="./historia.html" target="_blank">História</a></li>
+                    <li><a href="./colecoes.html" target="_blank">Coleções</a></li>
+                    <li><a href="./cronologico.html" target="_blank">Mapa Cronológico</a></li>
+                </ul>
+            </nav>
+            <div class="opcoes">
+                <img src="./images/home/user.png" alt="Ícone do usuário" class="icone-user"/>
+                <span>
+                    <a href="entrar.html" class="user-link" target="_blank">Entre</a> ou
+                    <a href="cadastro.html" class="user-link" target="_blank">Cadastre-se</a>
+                </span>
+                <button class="modo-escuro" onClick="alternarModo()">
+                    <img src="./images/home/modo-noturno.png" id="imagem-cor" alt="Alterar tema"/>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="container">
+                <h1>Bem-vindo ao Fascinante Mundo da Numismática!</h1>
+            </div>
+        </section>
+
+        <section id="historia" class="sobre">
+            <div class="container">
+                <h2>O Que é Numismática?</h2>
+
+                <p>
+                    No dicionário, o termo “numismática” é utilizado para descrever o estudo das medalhas e das moedas. Trata-se de uma ciência antiga, cujo termo deriva do latim “numisma” que significa moeda, mas que segue mais atual do que nunca. Prova disso é que o número de colecionadores e de estudiosos não para de crescer no Brasil e no mundo.
+                </p>
+                <p>
+                    A numismática, no entanto, vai muito além da coleção de moedas, cédulas e medalhas. Um numismata é, na verdade, um estudioso voraz da economia, da história, da geografia e de muitos outros aspectos relacionados a cada item de seu acervo.
+
+                    Imergir na numismática significa, na prática, se abrir a um novo e profundo tipo de conhecimento sobre o mundo como ele foi e como ele é.
+                </p>
+            </div>
+        </section>
+
+        <section id="colecoes" class="colecoes">
+            <div class="container">
+                <h2>Coleções em Destaque</h2>
+                <div class="grid">
+                    <article class="card">
+                        <img src="./images/home/moedas_raras.png" alt="Moedas raras" title="Moedas raras"/>
+                        <h3>Moedas Raras</h3>
+                        <p>Descubra moedas raras e históricas que marcaram épocas e são objetos de desejo de colecionadores.</p>
+                    </article>
+                    <article class="card">
+                        <img src="./images/home/cedulas_antigas.png" alt="Cédulas antigas" title="Cédulas antigas"/>
+                        <h3>Cédulas Antigas</h3>
+                        <p>Explore cédulas de diferentes países e períodos, com design e história únicos.</p>
+                    </article>
+                    <article class="card">
+                        <img src="./images/home/medalhas_antigas.png" alt="Medalhas históricas" title="Medalhas históricas"/>
+                        <h3>Medalhas</h3>
+                        <p>Medalhas que comemoram eventos históricos, figuras importantes e conquistas significativas.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="curiosidades" class="curiosidades">
+            <div class="container">
+                <h2>Curiosidades sobre Numismática</h2>
+                <ul>
+                    <li>As primeiras moedas foram criadas em 600 a.C. na Lídia, região da atual Turquia.</li>
+                    <li>Algumas moedas romanas antigas eram feitas de ouro puro e usadas para transações de alto valor.</li>
+                    <li>Cédulas de papel surgiram na China por volta do século 9.</li>
+                    <li>Moedas de colecionador podem alcançar valores milionários em leilões.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <p>&copy; 2024 Numisfera. Todos os direitos reservados.</p>
+            <div class="redes-sociais">
+                <a href="#" aria-label="Facebook">Facebook</a>
+                <a href="#" aria-label="Instagram">Instagram</a>
+                <a href="#" aria-label="Twitter">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

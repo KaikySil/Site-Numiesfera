@@ -1,0 +1,240 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+br{
+    user-select: none;
+}
+
+header{
+    margin-bottom: 30px;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: #C0392B;
+    color: #ffffff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cabecalho .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navegacao ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.navegacao a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.navegacao a:hover {
+    background-color: #970303;
+    transform: scale(1.1);
+}
+
+.opcoes {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icone-user {
+    width: 25px;
+    height: 25px;
+}
+
+.user-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.user-link:hover {
+    color: #f1f1f1;
+    font-weight: 900;
+}
+
+.modo-escuro {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.modo-escuro img:active {
+    transform: scale(1.2);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    background: linear-gradient(135deg, #ffffff, #f3f3f3);
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+    text-align: center;
+    color: #000000;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: #000000;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #000000;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+    background-color: #dedede;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #8B0000;
+    outline: none;
+}
+
+.genero-div {
+    display: flex;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #8B0000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #7d0000;
+}
+
+.form-container .senhaErrada{
+    background: none;
+    color: rgb(0, 0, 0);
+    border: none;
+    height: fit-content;
+    width: fit-content;
+}
+
+/* Rodapé */
+.rodape {
+    background: #0f1419;
+    color: #BDC3C7;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 100px;
+    border-top: 5px solid #C0392B;
+}
+
+.rodape a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.rodape a:hover {
+    color: #ffffff;
+}
+
+/* Botões Gerais */
+button {
+    background-color: #C0392B;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button img {
+    width: 20px;
+    height: 20px;
+}
+
+button:hover {
+    background-color: #A93226;
+}

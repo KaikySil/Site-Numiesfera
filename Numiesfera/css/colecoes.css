@@ -1,0 +1,238 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Títulos */
+h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h2{
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+p{
+    line-height: 7px;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+br{
+    user-select: none;
+}
+
+/*cabeçalho*/ /*cabeçalho*/ 
+.cabecalho {
+    background-color: #C0392B;
+    color: #ffffff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cabecalho .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navegacao ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.navegacao a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.navegacao a:hover {
+    background-color: #970303;
+    transform: scale(1.1);
+}
+
+.opcoes {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icone-user {
+    width: 25px;
+    height: 25px;
+}
+
+.user-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.user-link:hover {
+    color: #f1f1f1;
+    font-weight: 900;
+}
+
+.modo-escuro {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.modo-escuro img:active {
+    transform: scale(1.2);
+}
+
+/*tamanhos padroes*/
+.card {
+    background: linear-gradient(135deg, #ffffff, #f3f3f3);
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.1) ;
+    border-radius: 15px;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    min-width: 300px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.card:hover img {
+    transform: scale(1.05);
+}
+
+
+.colecoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.colecoes .linha{
+    display: flex;
+    flex-direction: row;
+}
+
+.colecoes .linha .card:hover{
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+
+.colecoes .linha .coluna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.colecoes .linha{
+    gap: 50px;
+}
+
+
+/*LINHA UM*/
+.colecoes .linha-um img{
+    max-width: 230px;
+    max-height: 220px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/*LINHA DOIS*/
+.colecoes .linha-dois img{
+    max-width: 250px;
+    min-height: 130px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+
+/*LINHA TRÊS*/
+.colecoes .linha-tres img{
+    max-width: 230px;
+    min-height: 120px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* Rodapé */
+.rodape {
+    background: #0f1419;
+    color: #BDC3C7;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 100px;
+    border-top: 5px solid #C0392B;
+}
+
+.rodape a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.rodape a:hover {
+    color: #ffffff;
+}
+
+/* Botões Gerais */
+button {
+    background-color: #C0392B;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button img {
+    width: 20px;
+    height: 20px;
+}
+
+button:hover {
+    background-color: #A93226;
+}
